@@ -66,4 +66,32 @@ public class libro {
     public libro(int id) {
         this.id = id;
     }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public void setAutor(String autor) {
+        this.autor = autor;
+    }
+
+    public void setEditorial(String editorial) {
+        this.editorial = editorial;
+    }
+
+    public void setEmail_edutorial(String email_edutorial) {
+        this.email_edutorial = email_edutorial;
+    }
+
+    public void setPrecio(BigDecimal precio) {
+        this.precio = precio;
+    }
+
+    public void setGenero(String genero) {
+        this.genero = genero;
+    }
 }

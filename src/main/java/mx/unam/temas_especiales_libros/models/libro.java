@@ -53,6 +53,9 @@ public class libro {
         return genero;
     }
 
+    public libro() {
+    }
+
     public libro(int id, String titulo, String autor, String editorial, String email_edutorial, BigDecimal precio, String genero) {
         this.id = id;
         this.titulo = titulo;
